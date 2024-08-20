@@ -239,3 +239,16 @@ input[type="number"] {
 .adicionar-produto {
   padding-bottom: 180px;
 }
+
+@media screen and (max-width: 1020px){
+  *{
+    flex-direction: column;
+    width: 100%;
+    
+  }
+
+  .titulo{
+    font-size: 30px;
+    text-align: center;
+  }
+}
